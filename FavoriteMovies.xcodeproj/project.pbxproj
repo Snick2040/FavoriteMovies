@@ -21,6 +21,14 @@
 		011987D7182C6B14009CE5EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011987B9182C6B14009CE5EB /* UIKit.framework */; };
 		011987DF182C6B14009CE5EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 011987DD182C6B14009CE5EB /* InfoPlist.strings */; };
 		011987E1182C6B14009CE5EB /* FavoriteMoviesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 011987E0182C6B14009CE5EB /* FavoriteMoviesTests.m */; };
+		011987EC182CD750009CE5EB /* MoviesInTheater.m in Sources */ = {isa = PBXBuildFile; fileRef = 011987EB182CD750009CE5EB /* MoviesInTheater.m */; };
+		011987EF182D8AAB009CE5EB /* MoviesListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 011987EE182D8AAB009CE5EB /* MoviesListTVC.m */; };
+		011987F6182DABF1009CE5EB /* fresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 011987F4182DABF1009CE5EB /* fresh.png */; };
+		011987F7182DABF1009CE5EB /* rotten.png in Resources */ = {isa = PBXBuildFile; fileRef = 011987F5182DABF1009CE5EB /* rotten.png */; };
+		0138938A182F423700AA9C83 /* MovieDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01389389182F423700AA9C83 /* MovieDetailVC.m */; };
+		0138938D182F6A5C00AA9C83 /* FavMovieTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0138938C182F6A5C00AA9C83 /* FavMovieTVC.m */; };
+		01389390182F734A00AA9C83 /* FavMovie2TVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0138938F182F734A00AA9C83 /* FavMovie2TVC.m */; };
+		01F3F0AC182F8CE40013BE9C /* WebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F3F0AB182F8CE40013BE9C /* WebVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,20 @@
 		011987DC182C6B14009CE5EB /* FavoriteMoviesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FavoriteMoviesTests-Info.plist"; sourceTree = "<group>"; };
 		011987DE182C6B14009CE5EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		011987E0182C6B14009CE5EB /* FavoriteMoviesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoriteMoviesTests.m; sourceTree = "<group>"; };
+		011987EA182CD750009CE5EB /* MoviesInTheater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesInTheater.h; sourceTree = "<group>"; };
+		011987EB182CD750009CE5EB /* MoviesInTheater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesInTheater.m; sourceTree = "<group>"; };
+		011987ED182D8AAB009CE5EB /* MoviesListTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesListTVC.h; sourceTree = "<group>"; };
+		011987EE182D8AAB009CE5EB /* MoviesListTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesListTVC.m; sourceTree = "<group>"; };
+		011987F4182DABF1009CE5EB /* fresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fresh.png; sourceTree = "<group>"; };
+		011987F5182DABF1009CE5EB /* rotten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotten.png; sourceTree = "<group>"; };
+		01389388182F423700AA9C83 /* MovieDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailVC.h; sourceTree = "<group>"; };
+		01389389182F423700AA9C83 /* MovieDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailVC.m; sourceTree = "<group>"; };
+		0138938B182F6A5C00AA9C83 /* FavMovieTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavMovieTVC.h; sourceTree = "<group>"; };
+		0138938C182F6A5C00AA9C83 /* FavMovieTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavMovieTVC.m; sourceTree = "<group>"; };
+		0138938E182F734A00AA9C83 /* FavMovie2TVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavMovie2TVC.h; sourceTree = "<group>"; };
+		0138938F182F734A00AA9C83 /* FavMovie2TVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavMovie2TVC.m; sourceTree = "<group>"; };
+		01F3F0AA182F8CE40013BE9C /* WebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebVC.h; sourceTree = "<group>"; };
+		01F3F0AB182F8CE40013BE9C /* WebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +134,15 @@
 		011987BB182C6B14009CE5EB /* FavoriteMovies */ = {
 			isa = PBXGroup;
 			children = (
-				011987C4182C6B14009CE5EB /* AppDelegate.h */,
-				011987C5182C6B14009CE5EB /* AppDelegate.m */,
-				011987C7182C6B14009CE5EB /* Main.storyboard */,
 				011987CA182C6B14009CE5EB /* ViewController.h */,
 				011987CB182C6B14009CE5EB /* ViewController.m */,
+				011987C7182C6B14009CE5EB /* Main.storyboard */,
+				011987ED182D8AAB009CE5EB /* MoviesListTVC.h */,
+				011987EE182D8AAB009CE5EB /* MoviesListTVC.m */,
+				0138938B182F6A5C00AA9C83 /* FavMovieTVC.h */,
+				0138938C182F6A5C00AA9C83 /* FavMovieTVC.m */,
+				01389388182F423700AA9C83 /* MovieDetailVC.h */,
+				01389389182F423700AA9C83 /* MovieDetailVC.m */,
 				011987CD182C6B14009CE5EB /* Images.xcassets */,
 				011987BC182C6B14009CE5EB /* Supporting Files */,
 			);
@@ -126,8 +152,18 @@
 		011987BC182C6B14009CE5EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				01F3F0AA182F8CE40013BE9C /* WebVC.h */,
+				01F3F0AB182F8CE40013BE9C /* WebVC.m */,
+				011987EA182CD750009CE5EB /* MoviesInTheater.h */,
+				011987EB182CD750009CE5EB /* MoviesInTheater.m */,
+				011987C4182C6B14009CE5EB /* AppDelegate.h */,
+				011987C5182C6B14009CE5EB /* AppDelegate.m */,
+				0138938E182F734A00AA9C83 /* FavMovie2TVC.h */,
+				0138938F182F734A00AA9C83 /* FavMovie2TVC.m */,
 				011987BD182C6B14009CE5EB /* FavoriteMovies-Info.plist */,
 				011987BE182C6B14009CE5EB /* InfoPlist.strings */,
+				011987F4182DABF1009CE5EB /* fresh.png */,
+				011987F5182DABF1009CE5EB /* rotten.png */,
 				011987C1182C6B14009CE5EB /* main.m */,
 				011987C3182C6B14009CE5EB /* FavoriteMovies-Prefix.pch */,
 			);
@@ -228,6 +264,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011987F7182DABF1009CE5EB /* rotten.png in Resources */,
+				011987F6182DABF1009CE5EB /* fresh.png in Resources */,
 				011987CE182C6B14009CE5EB /* Images.xcassets in Resources */,
 				011987C0182C6B14009CE5EB /* InfoPlist.strings in Resources */,
 				011987C9182C6B14009CE5EB /* Main.storyboard in Resources */,
@@ -251,7 +289,13 @@
 			files = (
 				011987CC182C6B14009CE5EB /* ViewController.m in Sources */,
 				011987C6182C6B14009CE5EB /* AppDelegate.m in Sources */,
+				0138938A182F423700AA9C83 /* MovieDetailVC.m in Sources */,
+				011987EF182D8AAB009CE5EB /* MoviesListTVC.m in Sources */,
 				011987C2182C6B14009CE5EB /* main.m in Sources */,
+				01389390182F734A00AA9C83 /* FavMovie2TVC.m in Sources */,
+				01F3F0AC182F8CE40013BE9C /* WebVC.m in Sources */,
+				0138938D182F6A5C00AA9C83 /* FavMovieTVC.m in Sources */,
+				011987EC182CD750009CE5EB /* MoviesInTheater.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +504,7 @@
 				011987E6182C6B14009CE5EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		011987E7182C6B14009CE5EB /* Build configuration list for PBXNativeTarget "FavoriteMoviesTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +513,7 @@
 				011987E9182C6B14009CE5EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
