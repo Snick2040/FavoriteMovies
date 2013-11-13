@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A094B22B-7425-430A-B4F7-753B7E17F574</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FavoriteMovies</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1C8F05E6-C4B7-472D-A049-7C22476AD83A</key>
+		<string>https://github.com/Snick2040/FavoriteMovies.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FavoriteMovies.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1C8F05E6-C4B7-472D-A049-7C22476AD83A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Snick2040/FavoriteMovies.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1C8F05E6-C4B7-472D-A049-7C22476AD83A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1C8F05E6-C4B7-472D-A049-7C22476AD83A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FavoriteMovies</string>
+		</dict>
+	</array>
+</dict>
+</plist>

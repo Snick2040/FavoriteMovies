@@ -38,7 +38,8 @@
     
     NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:[self.movieDict objectForKey:@"imgDetailed"]]];
     self.movieImageView.image = [UIImage imageWithData:data];
-    
+    self.movieImageView.frame = CGRectMake(70, 12, 180, 257);
+    //<rect key="frame" x="70" y="12" width="180" height="257"/>
     self.titleLabel.text = [self.movieDict objectForKey:@"title"];
     self.yearLabel.text = [NSString stringWithFormat:@"%@",[self.movieDict objectForKey:@"year"] ];
     self.tomatometerLabel.text = [NSString stringWithFormat:@"     %@%%",[self.movieDict objectForKey:@"rating"] ];

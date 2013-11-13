@@ -95,15 +95,31 @@
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
+    UIImageView *imv  = (UIImageView*)[cell.contentView viewWithTag:1];
+    
+    //if (cell == nil)
+    
+    if (!imv)
+    {
+        //Create a new cell
+        //cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        imv = [[UIImageView alloc]initWithFrame:CGRectMake(87,47, 14, 14 )];
+        imv.tag = 1;
+        [cell.contentView addSubview:imv];
+        NSLog(@"create new cell");
+    }
+    else
+    {
+        imv = (UIImageView*)[cell.contentView viewWithTag:1];
+        NSLog(@"reuse");
+    }
+    
+    
     NSString * sectionHeader = [self.headerArray objectAtIndex:indexPath.section];
     
     NSDictionary * thisDict = [[self.movieSortedDict objectForKey:sectionHeader] objectAtIndex:indexPath.row];
     
     cell.textLabel.text = [thisDict objectForKey:@"title"];
-
-    [[cell.contentView viewWithTag:123]removeFromSuperview] ;
-    UIImageView *imv = [[UIImageView alloc]initWithFrame:CGRectMake(87,47, 14, 14 )];
-    imv.tag = 123;
     
     if( ![[thisDict objectForKey:@"rating"] isEqualToNumber:[NSNumber numberWithInt:-1]]) {
         cell.detailTextLabel.text = [NSString stringWithFormat:@"     %@%%",[thisDict objectForKey:@"rating"]];
@@ -116,7 +132,6 @@
         imv.image=nil;
         cell.detailTextLabel.text = @"No Critic Rating";
     }
-    [cell.contentView addSubview:imv];
     
     NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:[thisDict objectForKey:@"imgThumb"]]];
     cell.imageView.image = [UIImage imageWithData:data];
